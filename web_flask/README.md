@@ -8,7 +8,7 @@
 
 ```
 # import data on cities and states into sql database
-$ curl -o 7-dump.sql "https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/290/7-states_list.sql"
+$ curl -o 7-dump.sql "https://s3.amazonaws.com/intranet-projects-files/dhkschool-higher-level_programming+/290/7-states_list.sql"
 $ cat 7-dump.sql | mysql -uroot -p
 Enter password: 
 $ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db python3 -m web_flask.8-cities_by_states
@@ -18,7 +18,7 @@ $ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost
 
 ```
 # import data on places into sql database
-$ curl -o 10-dump.sql "https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/290/10-hbnb_filters.sql"
+$ curl -o 10-dump.sql "https://s3.amazonaws.com/intranet-projects-files/dhkschool-higher-level_programming+/290/10-hbnb_filters.sql"
 $ cat 10-dump.sql | mysql -uroot -p
 Enter password: 
 $ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db python3 -m web_flask.10-hbnb_filters
@@ -53,7 +53,7 @@ curl 0.0.0.0:5000/hbnb ; echo ""
 * Languages: Python 3.4.3, HTML, CSS
 * OS: Ubuntu 14.04 LTS
 * Framework: Flask ```pip3 install flask```
-* Style guidelines: [W3C-Validator](https://github.com/holbertonschool/W3C-Validator) || [PEP 8 (version 1.7) for Python 3.5](https://www.python.org/dev/peps/pep-0008/) || [Google Style Python Docstrings](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
+* Style guidelines: [W3C-Validator](https://github.com/dhkschool/W3C-Validator) || [PEP 8 (version 1.7) for Python 3.5](https://www.python.org/dev/peps/pep-0008/) || [Google Style Python Docstrings](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
 
 ---
 ### Authors
